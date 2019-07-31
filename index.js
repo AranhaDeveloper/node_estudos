@@ -12,6 +12,10 @@ app.get('/blog', (req, res) => {
     res.send('<h1>'+'Meu Blog'+'</h1>')
 })
 
+app.get('/Ola/:nome/:funcao', (req, res) => {
+    res.send('<h1>'+'Ola '+ req.params.nome +'</h1>')
+})
+
 app.listen(3000, ()=> {
     console.log('Servidor rodando')
 })
