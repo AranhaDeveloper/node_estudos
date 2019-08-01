@@ -2,10 +2,25 @@
   "name": "node_estudos",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
   },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AranhaDeveloper/node_estudos.git"
+  },
+
+  "keywords": [
+    "node",
+    "api",
+    "put",
+    "get"
+  ],
+
+
   "author": "Raimundo Aranha",
   "license": "ISC",
   "dependencies": {

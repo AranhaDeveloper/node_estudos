@@ -1,7 +1,7 @@
 const app = require('express')()
 
 app.get('/', (req, res) => {
-    res.send('Seja bem vindo ao App!')
+    res.sendfile(__dirname + '/html/ind.html')
 })
 
 app.get('/sobre', (req, res) => {
